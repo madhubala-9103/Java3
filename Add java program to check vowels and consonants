@@ -1,0 +1,19 @@
+import java.util.Scanner;
+ public class vowels_constant{
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("check whether vowels or constans");
+        char a=scan.next().charAt(0);
+        System.out.println(a);
+        if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
+        {
+            System.out.println(a+" is vowels");
+            
+        }else if(a=='A'||a=='E'||a=='I'||a=='O'||a=='U'){
+        System.out.println(a+"is vowels");
+        }
+        else{
+           System.out.println(a+"is constant"); 
+        }
+    }
+}
