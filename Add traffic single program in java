@@ -1,0 +1,21 @@
+
+import java.util.Scanner;
+
+class traffic_signal {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Enter signal color: ");
+        String colour = scan.next();
+
+        if (colour.equals("green")) {
+            System.out.println("go");
+        } 
+        else if (colour.equals("yellow")) {
+            System.out.println("ready");
+        } 
+        else {
+            System.out.println("stop");
+        }
+    }
+}
