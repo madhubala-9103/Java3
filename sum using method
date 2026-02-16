@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+class Solution {
+   public int add(int a,int b){
+       int c=a+b;
+       return c;
+   }
+    public static void main(String[] args) {
+        Solution ob = new Solution();
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        int b=scan.nextInt();
+        int x=ob.add(a,b);
+        System.out.println(x);
+    } 
+}
