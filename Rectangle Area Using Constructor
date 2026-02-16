@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+class Rectangle{
+    int length;
+    int breadth;
+       Rectangle(int l,int b){
+          length = l;
+          breadth = b; 
+       }
+void display(){
+    int Area=length*breadth;
+    System.out.println("Area:"+Area);
+}          
+} 
+public class Solution {
+     public static void main(String[] args) {
+        Scanner scan=new Scanner (System.in);
+         int l=scan.nextInt(); 
+         int b=scan.nextInt();
+         Rectangle R = new Rectangle(l,b);
+         R.display();
+    }
+}
